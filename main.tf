@@ -12,7 +12,7 @@ resource "random_id" "rand_id" {
 }
 provider "aws" {
   # Configuration options
-  region = "eu-north-1"
+  region = var.aws_region
 }
 
 resource "aws_s3_bucket" "demobucket" {
