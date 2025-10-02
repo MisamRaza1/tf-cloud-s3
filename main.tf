@@ -18,3 +18,4 @@ provider "aws" {
 resource "aws_s3_bucket" "demobucket" {
   bucket = "misamsbucket-tfcloud-${random_id.rand_id.hex}"
 }
+# heloo yaar
